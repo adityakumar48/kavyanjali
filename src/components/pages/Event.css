@@ -1,0 +1,14 @@
+.event-bg{
+    background: linear-gradient(to right, #ffb132, #f7b739);
+    height: 100vh;
+}
+.event-txt{
+    color: #fff;
+    font-size: 45px;
+}
+@media screen and (max-width: 960px) {
+    .event-txt{
+        color: #fff;
+        font-size: 35px;
+    }
+}
