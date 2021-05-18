@@ -16,8 +16,8 @@ function Team() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2>Core Committee</h2>
-                        <p className="col-8 mx-auto">Our dedicated and extremely passionate core committee always tends to work towards the betterment of the club and its members and the structured and systematic execution of each and every event that is organized. They have always been loyal to the clubs and have made the working environment feel like home. And have proved time and again that the scope of growth is never ending.</p>
+                        <h1 className="text-center">Core Committee</h1>
+                        <p className="col-9 mx-auto">Our dedicated and extremely passionate core committee always tends to work towards the betterment of the club and its members and the structured and systematic execution of each and every event that is organized. They have always been loyal to the clubs and have made the working environment feel like home. And have proved time and again that the scope of growth is never ending.</p>
                     </div>
                     <Card img={abhishek} name="Mr.Abhishek Bhardwaj" position="(President)" />
                     <Card img={swarnim} name="Mr.Swarnim Aditya" position="(Vice President)" />

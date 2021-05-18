@@ -4,6 +4,7 @@ import Hero from "./components/pages/Hero";
 import About from "./components/pages/About";
 import Team from './components/pages/Team';
 import Event from './components/pages/Event';
+import Footer from './components/pages/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Team />
       <Event />
+      <Footer />
     </div>
   );
 }

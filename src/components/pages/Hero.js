@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Hero.css";
 import President from './President.jpg'
 function Hero() {
@@ -13,7 +13,7 @@ function Hero() {
               <h4 className="hero_text_s col-12">
                 The Literary Club of Graphic Era
               </h4>
-              <p className="hero_text_p col-10 mx-auto">
+              <p className="hero_text_p col-10 mr-auto">
                 The literary club of Graphic Era is the largest club of Graphic
                 Era with 150+ dedicated members. It is one of the most active
                 clubs in campus. Being the only club of the institution which

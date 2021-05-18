@@ -1,7 +1,11 @@
 .logo-img-nav {
     filter: drop-shadow(2px 4px 8px #585858);
+
   }
 
+.navbar-logo:hover{
+  color: #fff;
+}
   .navbar {
     background: linear-gradient(to right, #ffb132, #f7b739);
     height: 84px;
@@ -13,7 +17,15 @@
     top: 0;
     z-index: 999;
   }
+.logo-text-nav{
+  margin-left: 20px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
 
+}
+.logo-text-nav:hover{
+  color: #fff;
+}
   .navbar-container {
     display: flex;
     justify-content: space-between;

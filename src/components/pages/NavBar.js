@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.jpg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -11,32 +12,33 @@ function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar-container container">
-        <a href="#" className="navbar-logo">
+        <Link to='/' className="navbar-logo">
           <img className='logo-img-nav' src={logo} alt="logo" width="100%" />
-        </a>
+          <h2 className="logo-text-nav">Kavyanjali</h2>
+        </Link>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="#" className="nav-links">
+            <Link to='/' className="nav-links">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-links">
+            <Link to='/About' className="nav-links">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-links">
+            <Link to='/Team' className="nav-links">
+              Committe
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/Events" className="nav-links">
               Events
-            </a>
-          </li>
-          <li className="nav-item">
-            <a to="/contact" className="nav-links">
-              Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

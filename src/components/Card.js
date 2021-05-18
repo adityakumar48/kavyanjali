@@ -9,8 +9,8 @@ function Card(props) {
             <div class="card" >
                 <img src={props.img} width="100%" class="card-img-top" alt={props.img} />
                 <div class="card-body">
-                    <h4 class="card-title">{props.name}</h4>
-                    <h5 class="card-text">{props.position}</h5>
+                    <h4 class="card-title text-center">{props.name}</h4>
+                    <h5 class="card-text text-center">{props.position}</h5>
 
                 </div>
             </div>
