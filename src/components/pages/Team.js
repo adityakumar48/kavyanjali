@@ -28,6 +28,9 @@ function Team() {
                     <Card img={taalish} name="Mr. Taalish Irrfan" position="(Technical Head)" />
                 </div>
             </div>
+            <div id="events">
+
+            </div>
         </div>
     )
 }

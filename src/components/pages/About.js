@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 function About() {
   return (
-    <div className="about-bg" >
+    <div className="about-bg"  >
       <div className="container mt-5 pt-5">
         <div className="row">
           <div className="col-md-12">
@@ -16,9 +16,12 @@ function About() {
             <p className="p-color text-center mt-2">The First and only literary club of Graphic Era was founded on 3rd March 2020.</p>
             <p className="p-color col-10 mx-auto">Mr. Abhishek Bhardwaj and Mr. Swarnim Aditya; The current President and Vice President founded the club with the aim to  inculcate an environment to encourage more and more involvement into the world of literature and also to generate and increase confidence among ourselves and our peers.</p>
             <h4 className="text-center pb-2" >Vision</h4>
-            <p className="p-color col-10 mx-auto mt-2">Our sincere efforts are always focussed in fulfilling our vision of promoting literature and proving platforms to budding writers and performers. We want to promote and express the power and beauty of literature to the people. We also want to provide platforms for all those who want to convey their writings to the audience and have a desire to perform. We are consistenly focussed in working for our vision.</p>
+            <p className="p-color col-10 mx-auto mt-2" >Our sincere efforts are always focussed in fulfilling our vision of promoting literature and proving platforms to budding writers and performers. We want to promote and express the power and beauty of literature to the people. We also want to provide platforms for all those who want to convey their writings to the audience and have a desire to perform. We are consistenly focussed in working for our vision.</p>
           </div>
         </div>
+      </div>
+      <div id="committe">
+
       </div>
     </div>
   );

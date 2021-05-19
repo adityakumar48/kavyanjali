@@ -4,7 +4,7 @@ import President from './President.jpg'
 function Hero() {
   return (
     <div>
-      <div className="container">
+      <div className="container" id="home">
         <div className="row mb-5">
           <div className="col-md-6">
             <div>
@@ -21,23 +21,27 @@ function Hero() {
                 during the Lockdown.
               </p>
               <div className="mt-3">
-                <a href="#" className="hero-btn mt-5 pt-4">
+                <a href="#about" className="hero-btn mt-5 pt-4">
                   <button className="slideUpBtn">About Us</button>
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
-            <div className="mt-5 pt-4">
+            <div className="mt-5 pt-4" >
               <div>
                 <img className="president-img" src={President} width="90%" alt="banner" />
-                <h4 className="president-text text-center pt-2">President</h4>
+                <h4 id="about" className="president-text text-center pt-2">President</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div >
+
+      </div>
     </div>
+
   );
 }
 
