@@ -12,3 +12,8 @@
         font-size: 35px;
     }
 }
+
+img:hover{
+    filter: drop-shadow(2px 4px 8px #585858);
+    cursor: pointer;
+}

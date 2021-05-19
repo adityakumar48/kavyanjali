@@ -6,7 +6,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        Made By <strong>EnonityLabs</strong> &#x2764;
+                        Made By <strong><a className="text-decoration-none" target="_blank" href="http://enonitylabs.com/">EnonityLabs</a></strong> &#x2764;
                     </div>
                 </div>
 
